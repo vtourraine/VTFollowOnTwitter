@@ -23,8 +23,21 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ `VTFollowOnTwitter` is the central object to interact with Twitter.
+ */
+
 @interface VTFollowOnTwitter : NSObject
 
+/**
+ Sends a “follow me” request.
+ 
+ @param username The Twitter username (a.k.a. handle) to follow.
+ @param fromPreferredUsername The Twitter username (a.k.a. handle) to be used for the request. If `nil`, a single account has to be configured.
+ @param success A block object to be executed when the request operation finishes successfully. This block has no return value and takes no arguments.
+ @param multipleAccounts A block object to be executed when multiple accounts are configured, and no preferred account is specified. This block has no return value and takes one argument: an array of `NSString` containing the available usernames.
+ @param failure A block object to be executed when the request operation finishes unsuccessfully. This block has no return value and takes one arguments: the `NSError` object describing the error that occurred.
+ */
 + (void)followUsername:(NSString *)username
  fromPreferredUsername:(NSString *)fromPreferredUsername
                success:(void(^)())success
