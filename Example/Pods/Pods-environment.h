@@ -9,6 +9,6 @@
 // VTFollowOnTwitter
 #define COCOAPODS_POD_AVAILABLE_VTFollowOnTwitter
 #define COCOAPODS_VERSION_MAJOR_VTFollowOnTwitter 0
-#define COCOAPODS_VERSION_MINOR_VTFollowOnTwitter 1
+#define COCOAPODS_VERSION_MINOR_VTFollowOnTwitter 2
 #define COCOAPODS_VERSION_PATCH_VTFollowOnTwitter 0
 

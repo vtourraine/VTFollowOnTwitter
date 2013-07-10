@@ -1,5 +1,5 @@
 PODS:
-  - VTFollowOnTwitter (0.1)
+  - VTFollowOnTwitter (0.2)
 
 DEPENDENCIES:
   - VTFollowOnTwitter (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  VTFollowOnTwitter: 453b723b0a510b09f918c8637d74a13f6a33a2f8
+  VTFollowOnTwitter: 88ce14bd9a82041458320627f6b36438b81c3b33
 
-COCOAPODS: 0.19.1
+COCOAPODS: 0.22.1

@@ -1,624 +1,416 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>00C383F7AF5B49CB8A270EB0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>06AFC751A0F54642A587BDEF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Twitter.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Twitter.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0D841311CE5348178E7E370E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>0F7CDF1E12BE4035A95CF06D</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8FECB1EA713B41B7B9F3AFD8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>13FEFBAA6ADF45E0B5BC9841</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8F9F7C385DDB4C55BCA2D9D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>20878DF1BC6A4BA385053FA7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>00C383F7AF5B49CB8A270EB0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4BE80839466D42FFA4E4C0E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VTFollowOnTwitter.h</string>
-			<key>path</key>
-			<string>../../VTFollowOnTwitter.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>4CBAB5D74B624CC885F87EC3</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>A8BA50CC0C5340869CF4FA5C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>9A63A550924E47ABB0F60EA3</string>
-				<string>0F7CDF1E12BE4035A95CF06D</string>
-				<string>9E00A2D8F97749389BE42029</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>00C383F7AF5B49CB8A270EB0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>4EB72CDF66054251BF3113C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>503A8E6E33B14F97AC6B1CA4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0D841311CE5348178E7E370E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>59A6A0E696D44FD2B435ED80</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0D841311CE5348178E7E370E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PODS_HEADERS_SEARCH_PATHS</key>
-				<string>${PODS_BUILD_HEADERS_SEARCH_PATHS}</string>
-				<key>PODS_ROOT</key>
-				<string>${SRCROOT}</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>5F03BDB7863D4A55AE910C89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>6069F42A2ACC4F83AFD5B0CB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>72262127C7E8441F89F8DE9E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4BE80839466D42FFA4E4C0E2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>8608F58847F24513AB4C1885</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D679BCC3E644482DA9FBD2B8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8EC998C175FB4362A52A8A29</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>A2132352415B4153B723298E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>945467CEB05A4388A3D67EE5</string>
-			<key>productRefGroup</key>
-			<string>20878DF1BC6A4BA385053FA7</string>
-			<key>projectReferences</key>
-			<array/>
-			<key>targets</key>
-			<array>
-				<string>4CBAB5D74B624CC885F87EC3</string>
-			</array>
-		</dict>
-		<key>8F9F7C385DDB4C55BCA2D9D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-dummy.m</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8FECB1EA713B41B7B9F3AFD8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4EB72CDF66054251BF3113C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>945467CEB05A4388A3D67EE5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C53237B35E934792B5AB98F3</string>
-				<string>B2A016CD8D0342088071B993</string>
-				<string>20878DF1BC6A4BA385053FA7</string>
-				<string>8608F58847F24513AB4C1885</string>
-				<string>E049A9CA0C724CFFBF25E2FD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9996A3F1E87442929135B360</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Accounts.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Accounts.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>9A63A550924E47ABB0F60EA3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ED358EF529A44A1FB796D8F5</string>
-				<string>13FEFBAA6ADF45E0B5BC9841</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>9E00A2D8F97749389BE42029</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>72262127C7E8441F89F8DE9E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A2132352415B4153B723298E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6069F42A2ACC4F83AFD5B0CB</string>
-				<string>F46366BDDEF4435EBDBDE824</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A27C4994D10B41E3BDD710AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>VTFollowOnTwitter.m</string>
-			<key>path</key>
-			<string>../../VTFollowOnTwitter.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A4344C874A2E42C7945DBB63</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-prefix.pch</string>
-			<key>path</key>
-			<string>Pods-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>A8BA50CC0C5340869CF4FA5C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>59A6A0E696D44FD2B435ED80</string>
-				<string>503A8E6E33B14F97AC6B1CA4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>AC71EE1970A04AE995F60FE6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-resources.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B26C30360B704873B201AFC7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-environment.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B2A016CD8D0342088071B993</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF8D681717254BE580CD89BE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Local Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BF8D681717254BE580CD89BE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4BE80839466D42FFA4E4C0E2</string>
-				<string>A27C4994D10B41E3BDD710AA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>VTFollowOnTwitter</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C53237B35E934792B5AB98F3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9996A3F1E87442929135B360</string>
-				<string>4EB72CDF66054251BF3113C1</string>
-				<string>06AFC751A0F54642A587BDEF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD401D1145B74609A40C99C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D679BCC3E644482DA9FBD2B8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>0D841311CE5348178E7E370E</string>
-				<string>B26C30360B704873B201AFC7</string>
-				<string>A4344C874A2E42C7945DBB63</string>
-				<string>AC71EE1970A04AE995F60FE6</string>
-				<string>5F03BDB7863D4A55AE910C89</string>
-				<string>CD401D1145B74609A40C99C8</string>
-				<string>8F9F7C385DDB4C55BCA2D9D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E049A9CA0C724CFFBF25E2FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>ED358EF529A44A1FB796D8F5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A27C4994D10B41E3BDD710AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F46366BDDEF4435EBDBDE824</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8EC998C175FB4362A52A8A29</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1378508B137D438DB1DC464C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BBBC12FF71409F9D2610E9 /* Foundation.framework */; };
+		17D6E60C6B694FA4A53B9BA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BBBC12FF71409F9D2610E9 /* Foundation.framework */; };
+		48F01878801147BCA98D4AB5 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A04E21F1EC4A8FB4080984 /* Pods-dummy.m */; };
+		B15F137DF26E488BA49134AA /* Pods-VTFollowOnTwitter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D2A442F55A47B28DEC1DC2 /* Pods-VTFollowOnTwitter-dummy.m */; };
+		F14F4D5087B34E9E9F6819E7 /* ../../VTFollowOnTwitter.m in Sources */ = {isa = PBXBuildFile; fileRef = 698C772AC60643DABE3B2E6C /* ../../VTFollowOnTwitter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		FA2488005B2A4A1F9D1DF344 /* ../../VTFollowOnTwitter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1A927A1B14575BDB1933E /* ../../VTFollowOnTwitter.h */; };
+		FDFB8D78DF9B4D84B38E3BDD /* libPods-VTFollowOnTwitter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0566E0CD17DF414DA448F722 /* libPods-VTFollowOnTwitter.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F136630178DF7060001896D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD6D16FAF5144A9B5958489 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6F5EFFDB1C4F73BB517FF7;
+			remoteInfo = "Pods-VTFollowOnTwitter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0566E0CD17DF414DA448F722 /* libPods-VTFollowOnTwitter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VTFollowOnTwitter.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08C12F9E3E354DC6862B525F /* Accounts.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Accounts.framework; sourceTree = DEVELOPER_DIR; };
+		123ADD4AC4474F6EB2FE87A9 /* Social.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Social.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Social.framework; sourceTree = DEVELOPER_DIR; };
+		2E78AB3A28BD4FCFB2DE6A9C /* Pods-VTFollowOnTwitter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VTFollowOnTwitter-prefix.pch"; sourceTree = SOURCE_ROOT; };
+		42D2A442F55A47B28DEC1DC2 /* Pods-VTFollowOnTwitter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VTFollowOnTwitter-dummy.m"; sourceTree = SOURCE_ROOT; };
+		4AED737847774D21B4471576 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B0154B53D84624B11E020D /* Pods-VTFollowOnTwitter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VTFollowOnTwitter.xcconfig"; sourceTree = SOURCE_ROOT; };
+		698C772AC60643DABE3B2E6C /* ../../VTFollowOnTwitter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ../../VTFollowOnTwitter.m; sourceTree = SOURCE_ROOT; };
+		79E1A927A1B14575BDB1933E /* ../../VTFollowOnTwitter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ../../VTFollowOnTwitter.h; sourceTree = SOURCE_ROOT; };
+		88731BD29C9747DFA4A1B813 /* Pods-VTFollowOnTwitter-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VTFollowOnTwitter-Private.xcconfig"; sourceTree = SOURCE_ROOT; };
+		976B7FE2B4564C6D8D362384 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		9D88061B553E404D9E904DC4 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = SOURCE_ROOT; };
+		B7796065260541D7ADA05C54 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = SOURCE_ROOT; };
+		C9A04E21F1EC4A8FB4080984 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = SOURCE_ROOT; };
+		E65C71FEDC124E87ADBFADDE /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = SOURCE_ROOT; };
+		ECE2AD8B0ED94640ABAC4AE4 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = SOURCE_ROOT; };
+		F815C3A7FFEB44C5A3DF6573 /* ../Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8BBBC12FF71409F9D2610E9 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89598B03A1464BFA8F8491E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1378508B137D438DB1DC464C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1B12AED640459C86FAD6AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D6E60C6B694FA4A53B9BA1 /* Foundation.framework in Frameworks */,
+				FDFB8D78DF9B4D84B38E3BDD /* libPods-VTFollowOnTwitter.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		128447ACB45541AEB13038C7 /* Pods-VTFollowOnTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				63B0154B53D84624B11E020D /* Pods-VTFollowOnTwitter.xcconfig */,
+				88731BD29C9747DFA4A1B813 /* Pods-VTFollowOnTwitter-Private.xcconfig */,
+				2E78AB3A28BD4FCFB2DE6A9C /* Pods-VTFollowOnTwitter-prefix.pch */,
+				42D2A442F55A47B28DEC1DC2 /* Pods-VTFollowOnTwitter-dummy.m */,
+			);
+			name = "Pods-VTFollowOnTwitter";
+			sourceTree = "<group>";
+		};
+		3C1660C550EB463EA1D4FF80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08C12F9E3E354DC6862B525F /* Accounts.framework */,
+				F8BBBC12FF71409F9D2610E9 /* Foundation.framework */,
+				123ADD4AC4474F6EB2FE87A9 /* Social.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71ED174269EE4FD4B430E893 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				976B7FE2B4564C6D8D362384 /* Pods.xcconfig */,
+				B7796065260541D7ADA05C54 /* Pods-environment.h */,
+				E65C71FEDC124E87ADBFADDE /* Pods-resources.sh */,
+				ECE2AD8B0ED94640ABAC4AE4 /* Pods-acknowledgements.plist */,
+				9D88061B553E404D9E904DC4 /* Pods-acknowledgements.markdown */,
+				C9A04E21F1EC4A8FB4080984 /* Pods-dummy.m */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D58A5BC3CFD4303AE2C219E /* VTFollowOnTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				79E1A927A1B14575BDB1933E /* ../../VTFollowOnTwitter.h */,
+				698C772AC60643DABE3B2E6C /* ../../VTFollowOnTwitter.m */,
+			);
+			name = VTFollowOnTwitter;
+			sourceTree = "<group>";
+		};
+		81BCCF47AA6F4DD6BCBF912F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0566E0CD17DF414DA448F722 /* libPods-VTFollowOnTwitter.a */,
+				4AED737847774D21B4471576 /* libPods.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A5E289058A346BAAA90F2C4 /* Local Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D58A5BC3CFD4303AE2C219E /* VTFollowOnTwitter */,
+			);
+			name = "Local Pods";
+			sourceTree = "<group>";
+		};
+		A0FD20C031E54DDE87377398 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				128447ACB45541AEB13038C7 /* Pods-VTFollowOnTwitter */,
+				71ED174269EE4FD4B430E893 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D396CBE610CC4B2E85661EE1 = {
+			isa = PBXGroup;
+			children = (
+				3C1660C550EB463EA1D4FF80 /* Frameworks */,
+				8A5E289058A346BAAA90F2C4 /* Local Pods */,
+				81BCCF47AA6F4DD6BCBF912F /* Products */,
+				A0FD20C031E54DDE87377398 /* Targets Support Files */,
+				F815C3A7FFEB44C5A3DF6573 /* ../Podfile */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58798676A6904DFBBCEE2F0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2488005B2A4A1F9D1DF344 /* ../../VTFollowOnTwitter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57081A64D54D4420A7B556C1 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F6542C27962471085814970 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6F1746180ED54C0CAA11412D /* Sources */,
+				CC1B12AED640459C86FAD6AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8507A4C8A4418C8EE8E154 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 4AED737847774D21B4471576 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7B6F5EFFDB1C4F73BB517FF7 /* Pods-VTFollowOnTwitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8CB8CFF5F74C9893F31528 /* Build configuration list for PBXNativeTarget "Pods-VTFollowOnTwitter" */;
+			buildPhases = (
+				E22CF6407FC44451B8E21C16 /* Sources */,
+				89598B03A1464BFA8F8491E6 /* Frameworks */,
+				58798676A6904DFBBCEE2F0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VTFollowOnTwitter";
+			productName = "Pods-VTFollowOnTwitter";
+			productReference = 0566E0CD17DF414DA448F722 /* libPods-VTFollowOnTwitter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD6D16FAF5144A9B5958489 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 44EDF1B333AB4907978EB2C5 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D396CBE610CC4B2E85661EE1;
+			productRefGroup = 81BCCF47AA6F4DD6BCBF912F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6F5EFFDB1C4F73BB517FF7 /* Pods-VTFollowOnTwitter */,
+				57081A64D54D4420A7B556C1 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F1746180ED54C0CAA11412D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48F01878801147BCA98D4AB5 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E22CF6407FC44451B8E21C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F14F4D5087B34E9E9F6819E7 /* ../../VTFollowOnTwitter.m in Sources */,
+				B15F137DF26E488BA49134AA /* Pods-VTFollowOnTwitter-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C8507A4C8A4418C8EE8E154 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6F5EFFDB1C4F73BB517FF7 /* Pods-VTFollowOnTwitter */;
+			targetProxy = 1F136630178DF7060001896D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		000E4C05943241B8A610A5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		30780FCC49C84E6597770014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		8C4BDCDF08844B97AAF7EA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976B7FE2B4564C6D8D362384 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26291DB5B594ED9BC9497E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976B7FE2B4564C6D8D362384 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F99C5831EE4941B297C142DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88731BD29C9747DFA4A1B813 /* Pods-VTFollowOnTwitter-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-VTFollowOnTwitter-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FA220F8E6DC04A54944E0D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88731BD29C9747DFA4A1B813 /* Pods-VTFollowOnTwitter-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-VTFollowOnTwitter-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8CB8CFF5F74C9893F31528 /* Build configuration list for PBXNativeTarget "Pods-VTFollowOnTwitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA220F8E6DC04A54944E0D97 /* Release */,
+				F99C5831EE4941B297C142DE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F6542C27962471085814970 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C4BDCDF08844B97AAF7EA5E /* Release */,
+				F26291DB5B594ED9BC9497E3 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44EDF1B333AB4907978EB2C5 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30780FCC49C84E6597770014 /* Release */,
+				000E4C05943241B8A610A5B2 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD6D16FAF5144A9B5958489 /* Project object */;
+}

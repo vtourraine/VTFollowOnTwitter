@@ -24,7 +24,7 @@
 #import "VTFollowOnTwitter.h"
 
 #import <Accounts/Accounts.h>
-#import <Twitter/Twitter.h>
+#import <Social/Social.h>
 
 @interface VTFollowOnTwitter ()
 
@@ -44,7 +44,7 @@
     ACAccountStore *accountStore = [[ACAccountStore alloc] init];
     ACAccountType *accountType   = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
     
-    [accountStore requestAccessToAccountsWithType:accountType withCompletionHandler:^(BOOL granted, NSError *error) {
+    [accountStore requestAccessToAccountsWithType:accountType options:nil completion:^(BOOL granted, NSError *error) {
         if (granted) {
             NSArray *accountsArray = [accountStore accountsWithAccountType:accountType];
             
@@ -94,9 +94,10 @@
                 [tempDict setValue:username forKey:@"screen_name"];
                 [tempDict setValue:@"true" forKey:@"follow"];
                 
-                TWRequest *postRequest = [[TWRequest alloc] initWithURL:[NSURL URLWithString:@"https://api.twitter.com/1.1/friendships/create.json"]
-                                                             parameters:tempDict
-                                                          requestMethod:TWRequestMethodPOST];
+                SLRequest *postRequest = [SLRequest requestForServiceType:SLServiceTypeTwitter
+                                                            requestMethod:SLRequestMethodPOST
+                                                                      URL:[NSURL URLWithString:@"https://api.twitter.com/1.1/friendships/create.json"]
+                                                               parameters:tempDict];
                 
                 
                 [postRequest setAccount:twitterAccount];

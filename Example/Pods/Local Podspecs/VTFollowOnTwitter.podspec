@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'VTFollowOnTwitter'
-  s.version  = '0.1'
+  s.version  = '0.2'
   s.license  = 'MIT'
   s.summary  = 'Ready to use “Follow me on Twitter” native implementation.'
   s.homepage = 'https://github.com/vtourraine/VTFollowOnTwitter'
@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
   s.source_files = 'VTFollowOnTwitter.{h,m}'
   s.requires_arc = true
 
-  s.ios.deployment_target = '5.0'
-  s.ios.frameworks = 'Twitter', 'Accounts'
+  s.ios.deployment_target = '6.0'
+  s.ios.frameworks = 'Social', 'Accounts'
 end
