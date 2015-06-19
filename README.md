@@ -2,11 +2,13 @@
 
 _Ready to use “Follow me on Twitter” native implementation._
 
+
 ## How To Get Started
 
 Instead of adding the source files directly to your project, you may want to consider using [CocoaPods](http://cocoapods.org/) to manage your dependencies. Follow the instructions on the CocoaPods site to install the gem, and specify VTFollowOnTwitter as a dependency in your Podfile with pod `'VTFollowOnTwitter', '~> 0.3'`.
 
 You can also download VTFollowOnTwitter source files, and add them to your project, with ARC enabled. Don’t forget to add the `Accounts` and `Social` frameworks in your target configuration.
+
 
 ## Example Usage
 
@@ -30,13 +32,11 @@ Your controller need to handle the case where the user has more than one Twitter
 
 @implementation VTViewController
 
-- (IBAction)followOnTwitter:(id)sender
-{
+- (IBAction)followOnTwitter:(id)sender {
     [self followOnTwitterFromUsername:nil];
 }
 
-- (void)followOnTwitterFromUsername:(NSString *)fromUsername
-{
+- (void)followOnTwitterFromUsername:(NSString *)fromUsername {
     NSString *username = @"StudioAMANgA";
 
     [VTFollowOnTwitter followUsername:username fromPreferredUsername:fromUsername success:^{
@@ -53,10 +53,8 @@ Your controller need to handle the case where the user has more than one Twitter
     }];
 }
 
-- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
-{
-    if (buttonIndex != actionSheet.cancelButtonIndex)
-    {
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex != actionSheet.cancelButtonIndex) {
         [self followOnTwitterFromUsername:[[actionSheet buttonTitleAtIndex:buttonIndex] stringByReplacingOccurrencesOfString:@"@" withString:@""]];
     }
 }
@@ -64,13 +62,16 @@ Your controller need to handle the case where the user has more than one Twitter
 @end
 ```
 
+
 ## Requirements
 
 VTFollowOnTwitter requires iOS 6.0 and above, with the `Accounts` and `Social` frameworks, and uses ARC.
 
+
 ## Credits
 
 VTFollowOnTwitter was created by [Vincent Tourraine](http://www.vtourraine.net).
+
 
 ## License
 
