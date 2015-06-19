@@ -5,17 +5,30 @@ _Ready to use “Follow me on Twitter” native implementation._
 
 ## How To Get Started
 
-Instead of adding the source files directly to your project, you may want to consider using [CocoaPods](http://cocoapods.org/) to manage your dependencies. Follow the instructions on the CocoaPods site to install the gem, and specify VTFollowOnTwitter as a dependency in your Podfile with pod `'VTFollowOnTwitter', '~> 0.3'`.
+Instead of adding the source files directly to your project, you may want to consider using [CocoaPods](http://cocoapods.org/) to manage your dependencies. Follow the instructions on the CocoaPods site to install the gem, and specify VTFollowOnTwitter as a dependency in your Podfile:
+
+```
+pod 'VTFollowOnTwitter', '~> 0.3'
+```
 
 You can also download VTFollowOnTwitter source files, and add them to your project, with ARC enabled. Don’t forget to add the `Accounts` and `Social` frameworks in your target configuration.
 
 
 ## Example Usage
 
-Your controller need to handle the case where the user has more than one Twitter account configured. You can use a `UIActionSheet` to present the choice if necessary.
+The main method needs the Twitter username to follow.
 
 ``` objc
+[VTFollowOnTwitter followUsername:@"test"
+            fromPreferredUsername:nil
+                          success:^{ /* Good */ }
+                 multipleAccounts:^(NSArray *usernames) { /* Need specific username */ } 
+                          failure:^(NSError *error) { /* Not good */ }];
+```
 
+Your controller need to handle the case where the user has more than one Twitter account configured. For instance, you can use a `UIActionSheet` to present the choice if necessary.
+
+``` objc
 @interface VTViewController : UIViewController
 
 - (IBAction)followOnTwitter:(id)sender;
