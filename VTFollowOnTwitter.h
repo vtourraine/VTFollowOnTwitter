@@ -38,10 +38,10 @@
  @param multipleAccounts A block object to be executed when multiple accounts are configured, and no preferred account is specified. This block has no return value and takes one argument: an array of `NSString` containing the available usernames.
  @param failure A block object to be executed when the request operation finishes unsuccessfully. This block has no return value and takes one arguments: the `NSError` object describing the error that occurred.
  */
-+ (void)followUsername:(NSString *)username
- fromPreferredUsername:(NSString *)fromPreferredUsername
-               success:(void(^)())success
-      multipleAccounts:(void(^)(NSArray *usernames))multipleAccounts
-               failure:(void(^)(NSError *error))failure;
++ (void)followUsername:(nonnull NSString *)username
+ fromPreferredUsername:(nullable NSString *)fromPreferredUsername
+               success:(nullable void(^)())success
+      multipleAccounts:(nullable void(^)(NSArray * __nonnull usernames))multipleAccounts
+               failure:(nullable void(^)(NSError * __nullable error))failure;
 
 @end
