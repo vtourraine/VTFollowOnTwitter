@@ -1,6 +1,6 @@
 {
   "name": "VTFollowOnTwitter",
-  "version": "0.3",
+  "version": "0.4",
   "license": "MIT",
   "summary": "Ready to use “Follow me on Twitter” native implementation.",
   "homepage": "https://github.com/vtourraine/VTFollowOnTwitter",
@@ -10,7 +10,7 @@
   "social_media_url": "https://twitter.com/vtourraine",
   "source": {
     "git": "https://github.com/vtourraine/VTFollowOnTwitter.git",
-    "tag": "0.3"
+    "tag": "0.4"
   },
   "source_files": "VTFollowOnTwitter.{h,m}",
   "requires_arc": true,

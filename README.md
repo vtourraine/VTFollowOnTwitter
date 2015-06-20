@@ -8,7 +8,7 @@ _Ready to use “Follow me on Twitter” native implementation._
 Instead of adding the source files directly to your project, you may want to consider using [CocoaPods](http://cocoapods.org/) to manage your dependencies. Follow the instructions on the CocoaPods site to install the gem, and specify VTFollowOnTwitter as a dependency in your Podfile:
 
 ```
-pod 'VTFollowOnTwitter', '~> 0.3'
+pod 'VTFollowOnTwitter', '~> 0.4'
 ```
 
 You can also download VTFollowOnTwitter source files, and add them to your project, with ARC enabled. Don’t forget to add the `Accounts` and `Social` frameworks in your target configuration.
@@ -78,7 +78,7 @@ Your controller need to handle the case where the user has more than one Twitter
 
 ## Requirements
 
-VTFollowOnTwitter requires iOS 6.0 and above, with the `Accounts` and `Social` frameworks, and uses ARC.
+VTFollowOnTwitter requires iOS 6.0 and above, with the `Accounts` and `Social` frameworks, Xcode 6.3 and above, and uses ARC.
 
 
 ## Credits
