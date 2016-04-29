@@ -2,10 +2,13 @@
 
 _Ready to use “Follow me on Twitter” native implementation._
 
+![Platform iOS](https://img.shields.io/badge/platform-iOS-blue.svg)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/VTFollowOnTwitter.svg)](https://cocoapods.org/pods/VTFollowOnTwitter)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CocoaPods documentation](https://img.shields.io/cocoapods/metrics/doc-percent/VTFollowOnTwitter.svg)](http://cocoadocs.org/docsets/VTFollowOnTwitter)
+[![MIT license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/vtourraine/VTFollowOnTwitter/raw/master/LICENSE)
 
 ## How To Get Started
-
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 Instead of adding the source files directly to your project, you may want to consider using [CocoaPods](http://cocoapods.org/) to manage your dependencies. Follow the instructions on the CocoaPods site to install the gem, and specify VTFollowOnTwitter as a dependency in your Podfile:
 
